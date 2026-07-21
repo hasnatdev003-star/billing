@@ -7,8 +7,40 @@ import com.reusable.subscription.R
 
 object SubscriptionHostConfig {
 
+    /**
+     * Programmatic billing license key (takes precedence over XML resource if set).
+     */
+    @JvmStatic
+    @Volatile
+    var billingLicenseKey: String? = null
+
+    /**
+     * Programmatic Monthly subscription Product/SKU ID.
+     */
+    @JvmStatic
+    @Volatile
+    var productIdMonthly: String = "com.monthly"
+
+    /**
+     * Programmatic Yearly subscription Product/SKU ID.
+     */
+    @JvmStatic
+    @Volatile
+    var productIdYearly: String = "com.yearly"
+
+    /**
+     * Programmatic Lifetime in-app purchase Product/SKU ID.
+     */
+    @JvmStatic
+    @Volatile
+    var productIdLifetime: String = "com.lifetime"
+
     @JvmStatic
     fun getBillingLicenseKey(context: Context): String {
+        val dynamicKey = billingLicenseKey
+        if (!dynamicKey.isNullOrBlank()) {
+            return dynamicKey
+        }
         return runCatching { context.getString(R.string.subscription_billing_license_key) }
             .getOrDefault("")
     }

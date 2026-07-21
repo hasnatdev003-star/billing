@@ -51,17 +51,17 @@ object  SubscriptionConstant {
 
     /** Product ID for monthly subscription (SUBS). */
     val PRODUCT_ID_MONTHLY: String
-        get() = "com.monthly"
+        get() = com.reusable.subscription.domain.config.SubscriptionHostConfig.productIdMonthly
 
     /** Product ID for yearly subscription (SUBS). */
     val PRODUCT_ID_YEARLY: String
-        get() = "com.yearly"
+        get() = com.reusable.subscription.domain.config.SubscriptionHostConfig.productIdYearly
 
     /**
-     * Product ID for lifetime access (one-time INAPP). Same as [PLAN_LIFETIME]: remove.ads.smsbyvoice.
+     * Product ID for lifetime access (one-time INAPP).
      */
     val PRODUCT_ID_LIFETIME: String
-        get() = "com.lifetime"
+        get() = com.reusable.subscription.domain.config.SubscriptionHostConfig.productIdLifetime
 
     /**
      * Legacy "remove ads" (INAPP) product in Play for previously purchased users.
