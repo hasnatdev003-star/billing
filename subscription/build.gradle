@@ -2,6 +2,7 @@ plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-parcelize'
+    id 'maven-publish'
 }
 
 android {
@@ -32,6 +33,12 @@ android {
     kotlinOptions {
         jvmTarget = '11'
     }
+
+    publishing {
+        singleVariant('release') {
+            withSourcesJar()
+        }
+    }
 }
 
 dependencies {
@@ -45,4 +52,24 @@ dependencies {
     implementation 'androidx.datastore:datastore-preferences:1.1.1'
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3'
 }
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+
+                groupId = project.findProperty("group")?.toString()?.trim()?.with { it.contains(" ") || it.isEmpty() ? null : it }
+                        ?: (project.group?.toString()?.trim()?.with { it.contains(" ") || it.isEmpty() ? null : it })
+                        ?: "com.github.hasnatdev003-star"
+
+                artifactId = "subscription"
+
+                version = project.findProperty("version")?.toString()
+                        ?: "1.0.1"
+            }
+        }
+    }
+}
+
 
