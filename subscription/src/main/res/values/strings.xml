@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="subscription_billing_license_key"></string>
+    <string name="subscription_privacy_policy_url"></string>
+    <string name="subscription_headline">Upgrade to Pro</string>
+    <string name="subscription_benefits_heading">What you will get with Pro</string>
+    <string name="subscription_premium_remove_ad">Remove ad</string>
+    <string name="subscription_premium_keyboard_translation">Unlimited Keyboard Voice Typing</string>
+    <string name="subscription_premium_offline_translator">Offline Translator</string>
+    <string name="subscription_premium_continuous_pro">Continuous Listening</string>
+    <string name="subscription_choose_plan">Choose your plan</string>
+    <string name="subscription_btn_subscribe">Subscribe</string>
+    <string name="subscription_btn_loading">Loading plans...</string>
+    <string name="subscription_btn_trial">Start Free Trial</string>
+    <string name="subscription_btn_offer">Continue with Offer</string>
+    <string name="subscription_btn_subscribe_now">Subscribe Now</string>
+    <string name="subscription_btn_lifetime">Unlock Pro Forever</string>
+    <string name="subscription_terms">Terms of Service</string>
+    <string name="subscription_privacy_policy">Privacy Policy</string>
+    <string name="subscription_cancel_anytime">Cancel</string>
+    <string name="subscription_success_dialog_title">Subscription successful</string>
+    <string name="subscription_success_dialog_message">Your subscription is active. Please restart the app to enjoy ad-free experience.</string>
+    <string name="subscription_success_btn_restart">Restart app</string>
+    <string name="subscription_plan_monthly">Monthly Access</string>
+    <string name="subscription_plan_monthly_desc">Billed every month</string>
+    <string name="subscription_plan_yearly">Yearly Access</string>
+    <string name="subscription_plan_yearly_desc">Billed once a year</string>
+    <string name="subscription_plan_lifetime">Lifetime Access</string>
+    <string name="subscription_plan_lifetime_desc">Pay once, use forever</string>
+    <string name="subscription_trial_format">%1$s-day free trial</string>
+    <string name="subscription_after_trial_billed">After trial, billed per %1$s</string>
+    <string name="subscription_limited_time_offer">Limited Time Offer</string>
+    <string name="subscription_save_percent">SAVE %1$d%%</string>
+    <string name="subscription_loading">Loading...</string>
+    <string name="subscription_loading_placeholder">-</string>
+    <string name="subscription_no_plans_available">No subscription plans are available right now.</string>
+    <string name="subscription_restore_no_active">No active subscription found</string>
+    <string name="subscription_pending_message">Your purchase is pending. Please wait for confirmation.</string>
+    <string name="subscription_unit_day">day</string>
+    <string name="subscription_unit_week">week</string>
+    <string name="subscription_unit_month">month</string>
+    <string name="subscription_unit_year">year</string>
+    <string name="subscription_period_day">day</string>
+    <string name="subscription_period_week">week</string>
+    <string name="subscription_period_month">month</string>
+    <string name="subscription_period_year">year</string>
+    <string name="subscription_best_value">Best Value</string>
+    <string name="general_error">Error occurred. Please try again.</string>
+
+    <plurals name="subscription_units_days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="trial_days">
+        <item quantity="one">%d day free trial</item>
+        <item quantity="other">%d days free trial</item>
+    </plurals>
+    <plurals name="subscription_units_weeks">
+        <item quantity="one">%d week</item>
+        <item quantity="other">%d weeks</item>
+    </plurals>
+    <plurals name="trial_weeks">
+        <item quantity="one">%d week free trial</item>
+        <item quantity="other">%d weeks free trial</item>
+    </plurals>
+    <plurals name="subscription_units_months">
+        <item quantity="one">%d month</item>
+        <item quantity="other">%d months</item>
+    </plurals>
+    <plurals name="trial_months">
+        <item quantity="one">%d month free trial</item>
+        <item quantity="other">%d months free trial</item>
+    </plurals>
+    <plurals name="subscription_units_years">
+        <item quantity="one">%d year</item>
+        <item quantity="other">%d years</item>
+    </plurals>
+    <plurals name="trial_years">
+        <item quantity="one">%d year free trial</item>
+        <item quantity="other">%d years free trial</item>
+    </plurals>
+    <plurals name="subscription_period_days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="subscription_period_weeks">
+        <item quantity="one">%d week</item>
+        <item quantity="other">%d weeks</item>
+    </plurals>
+    <plurals name="subscription_period_months">
+        <item quantity="one">%d month</item>
+        <item quantity="other">%d months</item>
+    </plurals>
+    <plurals name="subscription_period_years">
+        <item quantity="one">%d year</item>
+        <item quantity="other">%d years</item>
+    </plurals>
+    <string name="subscription_unlock_all_premium_features">Unlock All Premium Features</string>
+    <string name="subscription_no_plans_available_title">No Plans Available</string>
+    <string name="subscription_no_plans_available_desc">Please check your internet connection or try again later.</string>
+    <string name="subscription_btn_reload">Reload</string>
+    <string name="subscription_separator_slash"> / </string>
+    <string name="subscription_separator_pipe"> | </string>
+    <string name="subscription_restore">Restore</string>
+    <string name="subscription_daily_plan">Daily Plan</string>
+    <string name="subscription_days_plan">%1$d-Day Plan</string>
+    <string name="subscription_weekly_plan">Weekly Plan</string>
+    <string name="subscription_weeks_plan">%1$d-Week Plan</string>
+    <string name="subscription_months_plan">%1$d-Month Plan</string>
+    <string name="subscription_years_plan">%1$d-Year Plan</string>
+</resources>

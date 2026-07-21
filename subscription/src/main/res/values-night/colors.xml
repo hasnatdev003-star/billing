@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_primary">#F2F4F8</color>
+    <color name="text_secondary">#C3CAD3</color>
+    <color name="grey">#1A2129</color>
+    <color name="surface_main">#101418</color>
+    <color name="surface_variant">#1A2129</color>
+    <color name="toolbar_background">#16273A</color>
+    <color name="subscription_plan_selected_bg">#14314D</color>
+    <color name="subscription_accent">#5EA8FF</color>
+    <color name="subscription_accent_container">#1B3E66</color>
+    <color name="subscription_link">#8FC2FF</color>
+    <color name="subscription_save_chip_bg">#1F3F61</color>
+    <color name="subscription_plan_selected_bg_thematic">#17324F</color>
+</resources>

@@ -1,0 +1,6 @@
+﻿<resources>
+    <string name="app_name">GooglePlayBillingUtils</string>
+    <!-- Override the subscription module config string -->
+    <string name="subscription_billing_license_key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvAdJutj298nyJtV8f3s+y4VXjFbqhvbs88oXk/rdMQWL22vSVniIAuUjJ1+kirxHIZbjMw6VUtpAdDZtzgrF7Sy6cbGmrWWJCxYkoQydWmTKKSrFCv3rWihh0HC2NyUgWF+vjrCifMbVb69TSyaj1voaOF5bAa4wvscQdJuQNr6o4G0Zsqvly2e4Xs5vcYFOjAVQrkAeJTd0yfH2IMAcvw6ql0PRGUunJ3u1EbhJgdEUY0PpQEGERQRDc7eBdtmo4ehqb1hsMTv9ERl8f+pUpK6PfeAkS5+ed2oF+Xg7n0o0Pu94ZgYZlzu/9l4dI2CCvHcWGVBeyo26p9r6hvVmywIDAQAB</string>
+    <string name="subscription_privacy_policy_url">https://your-privacy-policy.com</string>
+</resources>

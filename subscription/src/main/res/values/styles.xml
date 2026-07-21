@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TransparentDialog" parent="Theme.MaterialComponents.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.SubscriptionModule" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/subscription_accent</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/subscription_accent_container</item>
+        <item name="colorSurface">@color/surface_main</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorError">@color/subscription_error</item>
+        <item name="colorOutline">@color/grey</item>
+        <item name="colorOutlineVariant">@color/grey</item>
+    </style>
+</resources>

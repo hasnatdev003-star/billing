@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#DEDEDE</color>
+    <color name="best_value_badge_bg">#FF9800</color>
+    <color name="hc_aca9a9">#ACA9A9</color>
+    <color name="hc_ffffff">#FFFFFF</color>
+    <color name="hc_ffffffff">#FFFFFFFF</color>
+    <color name="hc_ff000000">#FF000000</color>
+    <color name="text_primary">#000000</color>
+    <color name="text_secondary">#5F6368</color>
+    <color name="surface_main">#FFFFFF</color>
+    <color name="surface_variant">#F5F7FA</color>
+    <color name="toolbar_background">#FF9800</color>
+    <color name="subscription_plan_selected_bg">#E3F2FD</color>
+    <color name="subscription_accent">#FF9800</color>
+    <color name="subscription_accent_container">#FFF3E0</color>
+    <color name="subscription_link">#FF9800</color>
+    <color name="subscription_save_chip_bg">#FFF3E0</color>
+    <color name="subscription_plan_selected_bg_thematic">#FFF8E1</color>
+    <color name="subscription_error">#FF9800</color>
+</resources>
